@@ -54,13 +54,11 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <h1 className="text-5xl font-bold">Box Office News!</h1>
+            <h1 className="text-5xl font-bold">Products</h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              We deal in a variety of products ranging from basic items like snacks to electronic gadgets such as laptops, Tvs, Frigdes, mobile phone, Microwaves and so on.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary">Check Out Our Products</button>
           </div>
         </div>
       </div>
@@ -82,17 +80,82 @@ export default function Home() {
 </div>
       
       <div className="hero bg-base-200 min-h-screen">
-  <div className="hero-content lg:flex-row-reverse flex-col-reverse">
+  <div className="hero-content lg:flex-rowreverse flex-col-reverse">
+
+    <div className="flex-row flex">
+  
+
+  <div className="card bg-base-100 w-96 shadow-xl">
+  <figure className="px-10 pt-10">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-      className="max-w-sm rounded-lg shadow-2xl" />
+      src="https://1000logos.net/wp-content/uploads/2018/03/logo-wa-500x417.png"
+      alt="Shoes"
+      className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">Whatsapp</h2>
+    <p>Check our community on whatsapp for our <param name="" value="" />roducts</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Join us</button>
+    </div>
+  </div>
+</div>
+
+  <div className="card bg-base-100 w-96 shadow-xl">
+  <figure className="px-10 pt-10">
+    <img
+      src="https://1000logos.net/wp-content/uploads/2017/08/Snapchat-logo-700x394.png"
+      alt="Snapchat"
+      className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">Snapchat</h2>
+    <p>Check our page for more Products</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Follow us</button>
+    </div>
+  </div>
+</div>
+  
+  <div className="card bg-base-100 w-96 shadow-xl">
+  <figure className="px-10 pt-10">
+    <img
+      src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo-500x281.png"
+      alt="Shoes"
+      className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">Instagram</h2>
+    <p>Follow our instagram page for more Products</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Follow us</button>
+    </div>
+  </div>
+</div>
+
+  <div className="card bg-base-100 w-96 shadow-xl">
+  <figure className="px-10 pt-10">
+    <img
+      src="https://1000logos.net/wp-content/uploads/2017/02/Facebook-Logosu-500x281.png"
+      alt="Shoes"
+      className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">Facebook</h2>
+    <p>Check our page for more Products</p>
+    <div className="card-actions">
+      <button className="btn btn-primary">Follow us</button>
+    </div>
+  </div>
+</div>
+      </div>
+
     <div>
-      <h1 className="text-5xl font-bold">Box Office News!</h1>
+      <h1 className="text-5xl font-bold">Contact</h1>
       <p className="py-6">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+        We are availale on Whatsapp, InstaGram, SnapChat and FaceBook. Follow our page to be updated on our latest products
       </p>
-      <button className="btn btn-primary">Get Started</button>
+    
     </div>
   </div>
 </div>
@@ -123,10 +186,9 @@ export default function Home() {
   </div>
 </div>
     <div>
-      <h1 className="text-5xl font-bold">Box Office News!</h1>
+      <h1 className="text-5xl font-bold">About</h1>
       <p className="py-6">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+       Our products are approved bt the FDA and .We are located in all parts of Ghana and 23 different countries arround the world.
       </p>
       <button className="btn btn-primary">Get Started</button>
     </div>

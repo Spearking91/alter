@@ -669,6 +669,13 @@ html {
   flex-grow: 1;
 }
 
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
 .card figure {
   display: flex;
   align-items: center;
@@ -1007,6 +1014,15 @@ html {
   line-height: 1.25rem;
 }
 
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
 .card.image-full :where(figure) {
   overflow: hidden;
   border-radius: inherit;
@@ -1222,16 +1238,28 @@ html {
   }
 }
 
+.artboard.phone {
+  width: 320px;
+}
+
 .card-compact .card-body {
   padding: 1rem;
   font-size: .875rem;
   line-height: 1.25rem;
 }
 
+.card-compact .card-title {
+  margin-bottom: .25rem;
+}
+
 .card-normal .card-body {
   padding: var(--padding-card, 2rem);
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.card-normal .card-title {
+  margin-bottom: .75rem;
 }
 
 .join.join-vertical > :where(:not(:first-child)).btn {
@@ -1267,6 +1295,10 @@ html {
   width: 100%;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .max-w-lg {
   max-width: 32rem;
 }
@@ -1281,6 +1313,10 @@ html {
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .flex-col {
@@ -1323,6 +1359,10 @@ html {
   border-radius: .5rem;
 }
 
+.rounded-xl {
+  border-radius: .75rem;
+}
+
 .bg-base-100 {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-b1, oklch(var(--b1) / var(--tw-bg-opacity, 1)));
@@ -1352,6 +1392,15 @@ html {
   padding-bottom: 1.5rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1373,6 +1422,12 @@ html {
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px #00000040;
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
