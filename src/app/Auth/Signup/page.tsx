@@ -10,8 +10,7 @@ const Login = () => {
       <div className="text-center lg:text-left">
         <h1 className="text-5xl font-bold">Register now!</h1>
         <p className="py-6">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-          quasi. In deleniti eaque aut repudiandae et a id nisi.
+        Join our community and explorer our market for quality products and a fun experience
         </p>
       </div>
       <div className="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
@@ -34,15 +33,15 @@ const Login = () => {
               <span className="label-text">Confirm Password</span>
             </label>
             <input type="password" placeholder="Re-enter the same password" className="input input-bordered" required />
+          </div>
             <div className='flex flex-row justify-between items-center'>
           <Checkbox label={'I agree with all '} link={'Terms and Conditions'} />
             </div>
-          </div>
           <div className="form-control mt-6">
             <Link className="btn btn-primary" href={'/Home'} >Register</Link>
           </div>
-          <div className='flex flex-row justify-center items-center'>
-            <p>Already have an account?</p>
+          <div className='flex flex-row gap-2 justify-center items-center'>
+            <span>Already have an account?</span>
             <Link className='link-primary' href={'Login'}>Login</Link>
           </div>
         </form>

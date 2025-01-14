@@ -10,8 +10,7 @@ const Login = () => {
       <div className="text-center lg:text-left">
         <h1 className="text-5xl font-bold">Login now!</h1>
         <p className="py-6">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-          quasi. In deleniti eaque aut repudiandae et a id nisi.
+          Login and explorer our market for quality products and a fun experience
         </p>
       </div>
       <div className="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
@@ -39,8 +38,8 @@ const Login = () => {
           <div className="form-control mt-6">
             <Link className="btn btn-primary" href={'/Home'} >Login</Link>
           </div>
-          <div className='flex flex-row justify-center items-center'>
-            <p>Don't have an account?</p>
+          <div className='flex flex-row gap-2 justify-center items-center'>
+            <span>Don't have an account?</span>
             <Link className='link-primary' href={'Signup'}>Register</Link>
           </div>
         </form>

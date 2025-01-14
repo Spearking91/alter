@@ -190,7 +190,7 @@ export default function Home() {
       <p className="py-6">
        Our products are approved bt the FDA and .We are located in all parts of Ghana and 23 different countries arround the world.
       </p>
-      <button className="btn btn-primary">Get Started</button>
+
     </div>
   </div>
 </div>
