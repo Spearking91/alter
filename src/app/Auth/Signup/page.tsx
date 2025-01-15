@@ -1,9 +1,19 @@
+'use client'
+
 import Checkbox from '@/Components/Checkbox'
-import Silde from '@/Components/Silde'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import React from 'react'
 
-const Login = () => {
+const Signup = () => {
+  const router = useRouter();
+
+  const handleSubmit = async (event: { preventDefault: () => void }) => {
+    event.preventDefault(); 
+    router.push('/Home'); 
+  };
+
+  
   return (
     <div className="hero bg-base-200 min-h-screen">
     <div className="hero-content flex-col lg:flex-row-reverse">
@@ -14,7 +24,7 @@ const Login = () => {
         </p>
       </div>
       <div className="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl">
-        <form className="card-body" >
+        <form onSubmit={handleSubmit} className="card-body" >
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>
@@ -38,7 +48,7 @@ const Login = () => {
           <Checkbox label={'I agree with all '} link={'Terms and Conditions'} />
             </div>
           <div className="form-control mt-6">
-            <Link className="btn btn-primary" href={'/Home'} >Register</Link>
+            <button type='submit' className="btn btn-primary" >Register</button>
           </div>
           <div className='flex flex-row gap-2 justify-center items-center'>
             <span>Already have an account?</span>
@@ -51,4 +61,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Signup

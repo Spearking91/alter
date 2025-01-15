@@ -1275,10 +1275,6 @@ html {
   margin-top: 1.5rem;
 }
 
-.ml-2 {
-  margin-left: .5rem;
-}
-
 .flex {
   display: flex;
 }
@@ -1295,12 +1291,12 @@ html {
   min-height: 100vh;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-96 {
   width: 24rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-lg {
@@ -1317,10 +1313,6 @@ html {
 
 .flex-row {
   flex-direction: row;
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse;
 }
 
 .flex-col {
@@ -1391,22 +1383,18 @@ html {
   padding: 1.25rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-.pl-2 {
-  padding-left: .5rem;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
