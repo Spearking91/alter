@@ -12,12 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage:{
+        Street: "url('https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp')"
+      }
     },
   },
   plugins: [
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["cupcake", "coffee", "cmyk"],
+    themes: ["coffee", "cupcake",  "cmyk"],
   },
 } satisfies Config;

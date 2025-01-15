@@ -82,10 +82,11 @@ export default function Home() {
       <div className="hero bg-base-200 min-h-screen">
   <div className="hero-content lg:flex-rowreverse flex-col-reverse">
 
-    <div className="flex-row flex">
+
+    <div className="hello">
   
 
-  <div className="card bg-base-100 w-96 shadow-xl">
+  <div className="card bg-base-100 w-80 shadow-xl">
   <figure className="px-10 pt-10">
     <img
       src="https://1000logos.net/wp-content/uploads/2018/03/logo-wa-500x417.png"
@@ -101,7 +102,7 @@ export default function Home() {
   </div>
 </div>
 
-  <div className="card bg-base-100 w-96 shadow-xl">
+  <div className="card bg-base-100 w-80 shadow-xl">
   <figure className="px-10 pt-10">
     <img
       src="https://1000logos.net/wp-content/uploads/2017/08/Snapchat-logo-700x394.png"
@@ -117,7 +118,7 @@ export default function Home() {
   </div>
 </div>
   
-  <div className="card bg-base-100 w-96 shadow-xl">
+  <div className="card bg-base-100 w-80 shadow-xl">
   <figure className="px-10 pt-10">
     <img
       src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo-500x281.png"
@@ -133,7 +134,7 @@ export default function Home() {
   </div>
 </div>
 
-  <div className="card bg-base-100 w-96 shadow-xl">
+  <div className="card bg-base-100 w-80 shadow-xl">
   <figure className="px-10 pt-10">
     <img
       src="https://1000logos.net/wp-content/uploads/2017/02/Facebook-Logosu-500x281.png"

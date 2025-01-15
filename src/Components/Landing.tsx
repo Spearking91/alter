@@ -4,10 +4,7 @@ import React from 'react'
 const Landing = () => {
   return (
     <div
-    className="hero min-h-screen"
-    style={{
-      backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
-    }}>
+    className="hero min-h-screen bg-Street">
     <div className="hero-overlay bg-opacity-60"></div>
     <div className="hero-content text-neutral-content text-center">
       <div className="max-w-md ">

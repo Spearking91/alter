@@ -22,32 +22,30 @@ const page = async () => {
         <NavBar />
         <Silde />
         <div className='bg-base-300 w-full min-h-screen'>
-          <div className='w-full bg-orange-300 p-5 overflow-scroll'>
+
+          <div className='w-full bg-orange-300 p-5 overflow-auto'>
             <div className="w-full">
               <p className='text-2xl'>Products</p>
             </div>
             <div className="flex flex-row carousel gap-2 overflow-auto">
         {photos.map(item => <Card id={item.id} src={''} title={''} />)}
             </div>
-       
           </div>
-          <div className='w-full bg-orange-300 p-5 overflow-scroll'>
+          <div className='w-full bg-orange-300 p-5 overflow-auto'>
             <div className="w-full">
               <p className='text-2xl'>Products</p>
             </div>
             <div className="flex flex-row carousel gap-2 overflow-auto">
         {photos.map(item => <Card id={item.id} src={''} title={''} />)}
             </div>
-       
           </div>
-          <div className='w-full bg-orange-300 p-5 overflow-scroll'>
+          <div className='w-full bg-orange-300 p-5 overflow-auto'>
             <div className="w-full">
               <p className='text-2xl'>Products</p>
             </div>
             <div className="flex flex-row carousel gap-2 overflow-auto">
         {photos.map(item => <Card id={item.id} src={''} title={''} />)}
             </div>
-       
           </div>
 
         </div>

@@ -96,7 +96,7 @@ const NavBar = () => {
               />
             </svg>
 
-            <span className="badge badge-xs badge-primary indicator-item"></span>
+            
           </div>
         </button>
       </div>
